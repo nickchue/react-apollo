@@ -1,0 +1,14 @@
+# the name for the service (will be part of the service's HTTP endpoint)
+service: react-apollo-graphql-server
+
+# the cluster and stage the service is deployed to
+stage: dev
+
+# to disable authentication:
+# disableAuth: true
+secret: secret
+
+# the file path pointing to your data model
+datamodel: datamodel.graphql
+
+cluster: nick-chue-ddaa3b/prisma-us1
